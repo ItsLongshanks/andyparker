@@ -1,0 +1,253 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  color: #464e51;
+}
+
+/* Sections */
+
+.container-fluid {
+  padding: 5%;
+}
+
+/* Buttons */
+
+.button-col {
+  color: #FFF;
+  background-color: #2f9296;
+}
+
+.button-col:hover {
+  color: #FFF;
+  background-color: #87dfd6;
+}
+
+.button-white {
+  color: #2f9296;
+  background-color: #FFF;
+  margin: 2% 0;
+}
+
+.button-white:hover {
+  color: #87dfd6;
+  background-color: #FFF;
+}
+
+
+/* Navbar */
+
+.navbar {
+  background-color: #ffffff;
+  padding: 1%;
+}
+
+.navbar-brand {
+  font-family: 'Arvo', serif;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.button-nav {
+  margin-left: 5px;
+}
+
+/* Heading Section */
+
+#heading {
+  padding: 5% 5% 18%;
+}
+
+.heading-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.topline {
+  font-weight: 600;
+}
+
+/* Intro section */
+
+#intro {
+  background-color: #46b7b9;
+}
+
+.big-heading {
+  font-family: 'Arvo', serif;
+  font-size: 3rem;
+  margin-bottom: 5%;
+  color: #fff;
+}
+
+.intro-para {
+  color: #FFF;
+  padding-right: 15%;
+}
+
+
+/* Services Section */
+
+#services {
+  text-align: center;
+}
+
+.icon-box {
+  padding: 5%;
+}
+
+.services-title {
+  color: #2f9296;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 10px 0 20px;
+}
+
+.icon {
+  margin: 20px;
+  color: #2f9296;
+}
+
+.icon:hover {
+  color: #46b7b9;
+}
+
+/*********** Project section ***********/
+
+.project-container {
+  background-color: #dff5f2;
+  padding: 0 5% 3% 5%;
+  text-align: center;
+}
+
+.project-small {
+  width: 100%
+}
+
+.col-sm-4 {
+  padding: 2%;
+}
+
+.project-title {
+  padding-top: 5%;
+  font-family: 'Arvo', serif;
+}
+
+.project-text {
+  padding: 0 20%;
+}
+
+/* Testemonial Section */
+
+#testimonials {
+  margin: 0;
+}
+
+.testimonial-left {
+  padding: 5%;
+}
+
+.testimonial-box {
+  background-color: #FFF;
+  padding: 10%;
+  box-shadow: 5px 5px #87dfd6;
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2f9296;
+  line-height: 1.5;
+}
+
+.testimonial-name {
+  text-align: right;
+  margin: 0;
+}
+
+.testimonial-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Contact section */
+
+#contact {
+  background-color: #46b7b9;
+  font-family: 'Arvo', serif;
+  text-align: center;
+}
+
+.contact-heading {
+  color: #dff5f2;
+}
+
+.contact-text {
+  font-size: 2.5rem;
+  color: #FFF;
+  line-height: 1.5;
+}
+
+.contact-bold {
+  color: #FFF;
+  font-weight: 700;
+}
+
+.contact-link {
+  color: #FFF;
+  font-weight: 700;
+}
+
+.contact-link:hover {
+  color: #dff5f2;
+  text-decoration: none;
+}
+
+
+
+/* Footer Section */
+
+#footer {
+  background-color: #2f9296;
+  padding: 2% 5%;
+  text-align: center;
+}
+
+.footer-text {
+  color: #46b7b9;
+  font-size: 1rem;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+
+  #intro {
+    text-align: center;
+  }
+
+  .big-heading {
+    font-size: 2.5rem;
+  }
+
+  .intro-para {
+    padding-right: 0;
+  }
+
+  .project-title {
+    padding-top: 15%;
+  }
+
+  .project-text {
+    padding: 0 5%;
+  }
+
+  .contact-text {
+    font-size: 1.5rem;
+  }
+
+}
