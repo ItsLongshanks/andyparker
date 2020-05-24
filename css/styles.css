@@ -220,6 +220,8 @@ p {
 
 @media (max-width: 767px) {
 
+/* Intro section */
+
   #intro {
     text-align: center;
   }
@@ -232,6 +234,8 @@ p {
     padding-right: 0;
   }
 
+/* Project section */
+
   .project-title {
     padding-top: 15%;
   }
@@ -239,6 +243,8 @@ p {
   .project-text {
     padding: 0 5%;
   }
+
+  /* contact section */
 
   .contact-text {
     font-size: 1.5rem;
